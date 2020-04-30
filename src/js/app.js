@@ -46,7 +46,7 @@ App = {
 
   initContract: function() {
     
-    $.getJSON('Aadoption.json', function(data){
+    $.getJSON('adoption.json', function(data){
     var adoptionartifact = data;
 
     App.contracts.Aadoption = TruffleContract(adoptionartifact);
